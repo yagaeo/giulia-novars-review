@@ -1,4 +1,4 @@
-"""Build the Pages folder and store the publisher's public media alongside it."""
+"""Build the Pages folder and store the publisher's public assets alongside it."""
 
 from concurrent.futures import ThreadPoolExecutor
 from hashlib import sha256
@@ -11,11 +11,12 @@ import shutil
 import subprocess
 from urllib.parse import urlsplit
 
-MEDIA = re.compile(
+ASSET_URL = re.compile(
     r'https://giulianovars\.ru/(?:upload|local|bitrix)/'
-    r'[A-Za-z0-9_./%-]+\.(?:avif|gif|jpe?g|mp4|png|svg|webm|webp)(?=[\s"\'&<>)\\,]|$)',
+    r'[A-Za-z0-9_./%-]+\.(?:avif|gif|jpe?g|mp4|png|svg|webm|webp|woff2?)(?=[\s"\'&<>)\\,]|$)',
     re.IGNORECASE,
 )
+FONT_SIGNATURES = {'.woff': b'wOFF', '.woff2': b'wOF2'}
 
 def collect(url, folder):
     path = urlsplit(url).path
@@ -31,8 +32,13 @@ def collect(url, folder):
     )
     if result.returncode == 0 and temp.is_file():
         with temp.open('rb') as handle:
-            header = handle.read(512).lower()
-        if header and b'<!doctype html' not in header and b'<html' not in header:
+            header = handle.read(512)
+        signature = FONT_SIGNATURES.get(suffix)
+        if signature:
+            valid = header.startswith(signature)
+        else:
+            valid = bool(header) and b'<!doctype html' not in header.lower() and b'<html' not in header.lower()
+        if valid:
             os.replace(temp, target)
             return url, target
     temp.unlink(missing_ok=True)
@@ -44,18 +50,23 @@ def build(source, output):
     shutil.copytree(source, output)
     files = sorted(path for path in output.rglob('*') if path.suffix in {'.html', '.css'})
     text = {path: path.read_text(encoding='utf-8') for path in files}
-    urls = sorted({url.group() for page in text.values() for url in MEDIA.finditer(page)})
+    urls = sorted({url.group() for page in text.values() for url in ASSET_URL.finditer(page)})
+    fonts = {url for url in urls if Path(urlsplit(url).path).suffix.lower() in FONT_SIGNATURES}
     assets = output / 'assets' / 'media'
     assets.mkdir(parents=True)
     with ThreadPoolExecutor(max_workers=10) as pool:
         copies = dict(pool.map(lambda url: collect(url, assets), urls))
+    missing_fonts = sorted(url for url in fonts if copies[url] is None)
+    if missing_fonts:
+        raise SystemExit('Required font files are unavailable: ' + ', '.join(missing_fonts))
     for path, content in text.items():
         def local_url(match):
             saved = copies.get(match.group())
             return posixpath.relpath(saved, path.parent) if saved else match.group()
-        path.write_text(MEDIA.sub(local_url, content), encoding='utf-8')
+        path.write_text(ASSET_URL.sub(local_url, content), encoding='utf-8')
     misses = [url for url,dest in copies.items() if dest is None]
-    print(f'Local media: {len(urls)-len(misses)}/{len(urls)}')
+    print(f'Local media: {len(urls)-len(fonts)-len(misses)}/{len(urls)-len(fonts)}')
+    print(f'Local fonts: {len(fonts)}/{len(fonts)}')
     for url in misses:
         print(f'Origin link retained: {url}')
 
