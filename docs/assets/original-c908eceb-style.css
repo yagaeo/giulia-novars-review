@@ -1,0 +1,74 @@
+
+
+.filter-popup
+{
+  display: none;
+  position: absolute;
+}
+
+.one-filter:hover .filter-popup
+{
+  display: block;
+}
+
+[v-cloak] { display: none }
+
+
+.popover-contents
+{
+  border: 1px solid #e1e1e1;
+}
+
+#sortPopover
+{
+  display: none;
+    position: absolute;
+    z-index:  101;
+    background: white;
+    width: 185px;
+}
+
+#sortPopover.active
+{
+  display: block;
+}
+
+.one-filter
+{
+    position:relative;
+    
+}
+
+.scroll-filter
+{
+  max-width: 30vw;
+  display: flex;
+  padding-bottom: 10px;
+}
+
+.reset
+{
+  padding-bottom: 10px;
+}
+
+.check-group
+{
+  max-height: 450px;
+
+}
+
+.one-variant:last-child
+{
+  margin-bottom: -25px;
+}
+
+
+.disabled.one-variant
+{
+  display: none;
+}
+
+.filter-width
+{
+  min-height: 61px;
+}

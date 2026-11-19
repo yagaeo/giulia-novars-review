@@ -1,0 +1,15 @@
+.salon-item .btn--black_border
+{
+    display: flex;
+    align-items: center;
+
+}
+.btn--black_border img
+{
+    margin-right: 5px;
+    height: 30px;
+}
+.btn--black_border:hover img {
+    filter: invert(100%);
+  }
+

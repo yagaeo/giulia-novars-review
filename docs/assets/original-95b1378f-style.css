@@ -1,0 +1,23 @@
+.bx-breadcrumb-item span{
+
+	white-space: nowrap;
+	font-size: 13px;
+}
+
+.bx-breadcrumb
+{
+	margin-left: 15px;
+	opacity: 0;
+	transition: all 0.5s;
+}
+
+.bx-breadcrumb-item .fa
+{
+	margin: 0 5px;
+}
+
+
+.fixed .bx-breadcrumb
+{
+	opacity: 1;
+}

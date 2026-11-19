@@ -1,0 +1,8 @@
+/* Согласие на обработку персональных данных: круглый чекбокс в стиле кнопок сайта */
+.form-consent{display:flex;align-items:center;cursor:pointer}
+.consent-check{position:absolute;opacity:0;width:0;height:0}
+.consent-mark{flex:0 0 auto;position:relative;box-sizing:border-box;width:20px;height:20px;margin:0 10px 0 0;border:1px solid #1d1d1d;border-radius:50%;background-color:#fff;transition:border-color .35s cubic-bezier(.25,.46,.45,.94)}
+.consent-mark:after{content:'';position:absolute;left:50%;top:50%;transform:translate(-50%,-50%) scale(0);width:10px;height:10px;border-radius:50%;background-color:#1d1d1d;transition:transform .35s cubic-bezier(.25,.46,.45,.94)}
+.consent-check:checked+.consent-mark:after{transform:translate(-50%,-50%) scale(1)}
+.consent-check:focus-visible+.consent-mark{outline:2px solid #1d1d1d;outline-offset:2px}
+.politic-error{color:#d0021b;font-size:12px;line-height:16px;margin-top:6px}

@@ -1,0 +1,140 @@
+.filter-popup
+{
+  display: none;
+  position: absolute;
+}
+
+.one-filter:hover .filter-popup
+{
+  display: block;
+}
+
+[v-cloak] { display: none }
+
+
+.popover-contents
+{
+  border: 1px solid #e1e1e1;
+}
+
+#sortPopover
+{
+  display: none;
+    position: absolute;
+    z-index: 98;
+    background: white;
+}
+
+#sortPopover.active
+{
+  display: block;
+}
+
+.one-filter .bordered-selector
+{
+  width: 385px;
+}
+.fliter-s-cat .one-filter
+{
+  padding: 0;
+}
+
+.cities-popup
+{
+  max-height: 400px;
+}
+
+
+.popover {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2000;
+  visibility: visible;
+  align-items: flex-end;
+  display: flex
+}
+
+.popover .popover-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  background-color: #1d1d1d;
+  opacity: .4;
+  transition: opacity .35s ease
+}
+
+.popover .popover-close {
+  position: absolute;
+  right: 10px;
+  top: -35px;
+  z-index: 10
+}
+
+.popover .popover-contents {
+  border-top: 1px solid #e1e1e1;
+  background-color: #fff;
+  position: relative;
+  width: 100%;
+  padding-bottom: 10px;
+  transition: transform .35s ease;
+  transform: translateY(0)
+}
+
+.popover .popover-contents:not(.not-selectable) {
+  transition: transform .35s ease,height .35s ease
+}
+
+.popover .popover-controls {
+  position: relative
+}
+
+.popover .popover-controls .draggable-area {
+  padding: 12px 0
+}
+
+.popover .popover-controls .draggable-area .draggable-thumb {
+  margin: 0 auto;
+  background-color: #e1e1e1;
+  border-radius: 10px;
+  width: 45px;
+  height: 4px
+}
+
+.popover .close-popover {
+  position: absolute;
+  right: 0;
+  top: 0;
+  border: none
+}
+
+.popover .popover-body {
+  height: 100%;
+  overflow-y: auto;
+  grid-gap: 1rem;
+  gap: 1rem;
+  max-height: 70vh
+}
+
+.popover[aria-hidden=true] {
+  visibility: hidden;
+  pointer-events: none
+}
+
+.popover[aria-hidden=true] .popover-overlay {
+  opacity: 0
+}
+
+/* .popover[aria-hidden=true] .popover-contents {
+  transform: translateY(100%)
+} */
+
+#vue_filters
+{
+  height: 46px;
+}

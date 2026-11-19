@@ -1,0 +1,18 @@
+.one-param
+{
+    position: relative;
+}
+
+.required
+{
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    color: red;
+}
+
+.error-field
+{
+    color: #461717;
+    margin: 10px 0;
+}
