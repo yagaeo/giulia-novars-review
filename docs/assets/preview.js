@@ -6,7 +6,8 @@ let activeAside = null;
 
 const headerTopBuffer = 80;
 const headerRevealScrollEvents = 10;
-const headerFixedThreshold = header ? 2 * (header.getBoundingClientRect().height + headerTopBuffer) : 0;
+const getHeaderFixedThreshold = () => 2 * (header.getBoundingClientRect().height + headerTopBuffer);
+let headerFixedThreshold = 0;
 let previousHeaderScroll = window.scrollY;
 let upwardHeaderEvents = 0;
 
@@ -25,7 +26,14 @@ function updateHeaderPosition(scrollY) {
 }
 
 if (header) {
+  headerFixedThreshold = getHeaderFixedThreshold();
   updateHeaderPosition(previousHeaderScroll);
+  document.fonts.ready.then(() => {
+    // Font loading can change how the desktop navigation wraps.
+    headerFixedThreshold = getHeaderFixedThreshold();
+    if (!navigation?.classList.contains('show')) updateHeaderPosition(window.scrollY);
+  });
+
   window.addEventListener('scroll', () => {
     if (navigation?.classList.contains('show')) return;
 
