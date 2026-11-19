@@ -39,7 +39,7 @@ for (const heading of navigation?.querySelectorAll('.expand-item-heading') ?? []
   });
 }
 document.addEventListener('click', event => {
-  if (!event.target.closest('header')) toggleNavigation(false);
+  if (!event.composedPath().some(node => node instanceof HTMLElement && node.matches('header'))) toggleNavigation(false);
 });
 document.addEventListener('keydown', event => {
   if (event.key === 'Escape') {
