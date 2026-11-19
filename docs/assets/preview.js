@@ -1,11 +1,64 @@
+const page = document.querySelector('#page');
+const header = document.querySelector('#page-header');
 const navigation = document.querySelector('#page-nav');
 const menuButtons = [...document.querySelectorAll('[data-action="open-nav"]')];
 let activeAside = null;
 
+const headerTopBuffer = 80;
+const headerRevealScrollEvents = 10;
+const headerFixedThreshold = header ? 2 * (header.getBoundingClientRect().height + headerTopBuffer) : 0;
+let previousHeaderScroll = window.scrollY;
+let upwardHeaderEvents = 0;
+
+function updateHeaderPosition(scrollY) {
+  const fixed = scrollY > headerFixedThreshold;
+  header.classList.toggle('fixed', fixed);
+  page?.classList.toggle('fixed', fixed);
+
+  if (fixed) {
+    for (const submenu of header.querySelectorAll('.main-menu-holder.active')) {
+      submenu.classList.remove('active');
+    }
+  } else {
+    header.classList.remove('show', 'hide');
+  }
+}
+
+if (header) {
+  updateHeaderPosition(previousHeaderScroll);
+  window.addEventListener('scroll', () => {
+    if (navigation?.classList.contains('show')) return;
+
+    const scrollY = window.scrollY;
+    updateHeaderPosition(scrollY);
+
+    if (scrollY > previousHeaderScroll) {
+      upwardHeaderEvents = 0;
+    } else {
+      upwardHeaderEvents = Math.min(upwardHeaderEvents + 1, headerRevealScrollEvents);
+    }
+
+    if (upwardHeaderEvents === headerRevealScrollEvents) {
+      header.classList.add('show');
+      header.classList.remove('hide');
+    } else if (header.classList.contains('show')) {
+      header.classList.remove('show');
+      header.classList.add('hide');
+    }
+
+    previousHeaderScroll = Math.max(0, scrollY);
+  }, { passive: true });
+}
+
 function toggleNavigation(open) {
-  if (!navigation) return;
+  if (!navigation || navigation.classList.contains('show') === open) return;
+
+  upwardHeaderEvents = 0;
+  previousHeaderScroll = window.scrollY;
   navigation.classList.toggle('show', open);
   document.body.classList.toggle('preview-menu-open', open);
+  header?.classList.toggle('open-menu', open);
+  page?.classList.toggle('show-nav', open);
   for (const button of menuButtons) {
     button.setAttribute('aria-expanded', String(open));
     button.setAttribute('aria-label', open ? 'Закрыть меню' : 'Меню');

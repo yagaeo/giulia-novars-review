@@ -95,7 +95,6 @@ body { color: var(--preview-text); }
 .preview-project-dots i { width: 6px; height: 6px; border-radius: 50%; background: #fff; }
 .preview-project-dots i:first-child { background: #fd4f32; }
 main .intro-video img[src$="/play.svg"] { display: none; }
-#page-header .main-menu-item { white-space: nowrap; }
 #page-nav .expand-item-content { display: none; }
 #page-nav .expand-item.preview-expanded .expand-item-content { display: block; }
 #page-nav .expand-item-heading { cursor: pointer; }
