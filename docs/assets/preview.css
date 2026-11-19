@@ -121,6 +121,10 @@ main .intro-video img[src$="/play.svg"] { display: none; }
   padding-block: clamp(45px, 6.5vw, 110px);
 }
 
+.preview-landing p.text-t_md {
+  font-weight: 400;
+}
+
 .preview-landing #projects {
   scroll-margin-top: 80px;
 }
