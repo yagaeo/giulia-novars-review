@@ -4,6 +4,7 @@ on:
     branches: [main]
   workflow_dispatch:
 permissions:
+  actions: read
   contents: read
   pages: write
   id-token: write
@@ -14,6 +15,8 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     timeout-minutes: 12
+    env:
+      PAGES_ARTIFACT_NAME: github-pages-${{ github.run_attempt }}
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -22,8 +25,26 @@ jobs:
       - name: Package the static review site
         run: python3 tools/prepare_pages.py docs site
       - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
+      - id: upload
+        uses: actions/upload-pages-artifact@v3
         with:
+          name: ${{ env.PAGES_ARTIFACT_NAME }}
           path: site
+      - name: Wait for Pages artifact metadata
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PAGES_ARTIFACT_ID: ${{ steps.upload.outputs.artifact_id }}
+        run: |
+          for attempt in {1..15}; do
+            if gh api --method GET "repos/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID/artifacts" \
+                -f "name=$PAGES_ARTIFACT_NAME" --jq '.artifacts[].id' | grep -Fx "$PAGES_ARTIFACT_ID"; then
+              exit 0
+            fi
+            sleep 4
+          done
+          echo "::error::Pages artifact metadata is not available"
+          exit 1
       - id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          artifact_name: ${{ env.PAGES_ARTIFACT_NAME }}
