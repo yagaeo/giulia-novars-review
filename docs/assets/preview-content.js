@@ -195,6 +195,17 @@
     }
   });
 
+  for (const field of main.querySelectorAll('form[data-demo] .file-uploads')) {
+    const input = field.querySelector('input[type=file]');
+    const button = field.querySelector('button');
+    const caption = field.querySelector('.form-file span');
+    if (!input || !button) continue;
+    button.addEventListener('click', () => input.click());
+    input.addEventListener('change', () => {
+      if (caption) caption.textContent = input.files[0]?.name || '';
+    });
+  }
+
   for (const form of main.querySelectorAll('form[data-demo]')) {
     form.addEventListener('change', () => {
       const consent = form.querySelector('.consent-check');
