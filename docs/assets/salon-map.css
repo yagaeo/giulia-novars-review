@@ -36,6 +36,30 @@
   margin-top: 12px;
 }
 
+[data-map-salons] .sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.salon-map-error {
+  margin-bottom: 12px;
+  padding: 12px 15px;
+  border: 1px solid #e1e1e1;
+}
+
+.salon-map-error p {
+  margin: 0 0 8px;
+}
+
+.salon-map-error a {
+  display: inline-block;
+  margin: 5px 0 5px 12px;
+}
+
 .salon-map-cluster {
   display: grid;
   place-items: center;
