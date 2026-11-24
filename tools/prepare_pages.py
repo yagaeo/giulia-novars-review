@@ -5,6 +5,7 @@ from concurrent.futures import ThreadPoolExecutor
 from hashlib import sha256
 from pathlib import Path
 import argparse
+import json
 import os
 import posixpath
 import re
@@ -19,6 +20,11 @@ FRAGMENT = '<!-- preview-content -->'
 MAIN = re.compile(r'<main\b.*?</main>', re.DOTALL)
 LINK = re.compile(r'(\b(?:href|src|poster|data-project-link)=)(["\'])(.*?)\2', re.DOTALL)
 TITLE = re.compile(r'<title>.*?</title>', re.DOTALL)
+BREADCRUMB = re.compile(
+    r'<div class="bx-breadcrumb d-flex align-items-center" itemscope=.*?'
+    r'<div style="clear:both"></div></div>',
+    re.DOTALL,
+)
 
 ASSET_URL = re.compile(
     r'https://giulianovars\.ru/(?:upload|local|bitrix)/'
@@ -63,6 +69,8 @@ def render_pages(root):
     routes = set(pages)
     shell_path = pages.get('/about/')
     shell = shell_path.read_text(encoding='utf-8') if shell_path else ''
+    breadcrumb_file = Path(__file__).with_name('section-breadcrumbs.json')
+    breadcrumbs = json.loads(breadcrumb_file.read_text(encoding='utf-8'))
     for route, path in pages.items():
         content = path.read_text(encoding='utf-8')
         if content.startswith(FRAGMENT):
@@ -73,6 +81,8 @@ def render_pages(root):
             page_assets = content[title.end():main.start()]
             markup = rewrite_links(shell, '/about/', route, routes)
             markup = TITLE.sub(lambda _: title.group(), markup, count=1)
+            breadcrumb = rewrite_links(breadcrumbs.get(route, ''), route, route, routes)
+            markup = BREADCRUMB.sub(lambda _: breadcrumb, markup, count=1)
             if 'data-map-salons' in main.group():
                 markup = markup.replace("connect-src 'none'", "connect-src 'self'")
                 markup = markup.replace('name="referrer" content="no-referrer"',
