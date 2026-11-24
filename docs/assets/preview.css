@@ -259,3 +259,8 @@ main .intro-video img[src$="/play.svg"] { display: none; }
     aspect-ratio: 4 / 3;
   }
 }
+
+[data-preview-page="shops"] .salon-item [class*="col-"] {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}

@@ -1,0 +1,64 @@
+[data-map-salons] .map-city-field {
+  min-width: 0;
+  width: min(100%, 383px);
+}
+
+[data-map-salons] #map-city {
+  width: 100%;
+  color: inherit;
+  background-color: #fff;
+  border: 1px solid #e1e1e1;
+  border-radius: 12px;
+  min-height: 34px;
+  padding-inline: 15px;
+}
+
+#salon-map {
+  height: clamp(440px, 71vh, 750px);
+  background: #e8e8e8;
+  isolation: isolate;
+}
+
+#salon-map .leaflet-tile-pane {
+  filter: grayscale(1);
+}
+
+#salon-map .leaflet-popup-content {
+  font: inherit;
+}
+
+#salon-map .leaflet-popup-content a {
+  display: block;
+  color: #222;
+}
+
+#salon-map .leaflet-popup-content a:last-child {
+  margin-top: 12px;
+}
+
+.salon-map-cluster {
+  display: grid;
+  place-items: center;
+  border: 2px solid #e43e3e;
+  border-radius: 50%;
+  background: #fffffff0;
+}
+
+.salon-map-cluster span {
+  display: grid;
+  place-items: center;
+  width: 28px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: #e43e3e;
+  color: #fff;
+}
+
+@media (max-width: 767px) {
+  #salon-map { height: min(66svh, 560px); min-height: 350px; }
+}
+
+.salon-map-embed #salon-map {
+  height: clamp(320px, 52vh, 500px);
+  margin-bottom: 12px;
+}

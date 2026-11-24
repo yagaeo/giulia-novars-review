@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "1584",
+    "slug": "barnaul",
+    "city": "Барнаул",
+    "cityCode": "barnaul",
+    "name": "“ArtDekko” Барнаул",
+    "address": "Барнаул, ул. Брестская,11",
+    "coordinates": [
+      53.342586,
+      83.775401
+    ],
+    "phones": [
+      "+7(3852) 25-70-07"
+    ],
+    "hours": [
+      "пн-пт 10:00-19:00",
+      "сб 11:00-17:00",
+      "вс выходной"
+    ],
+    "emails": [
+      "artryzhkov@inbox.ru"
+    ],
+    "websites": [],
+    "source": "https://giulianovars.ru/shops/salon/barnaul/",
+    "link": "../shops/salon/barnaul/"
+  },
+  {
+    "id": "519",
+    "slug": "blagoveshchensk",
+    "city": "Благовещенск",
+    "cityCode": "blagoveshchensk",
+    "name": "“Giulia Novars” Благовещенск",
+    "address": "Благовещенск, ул. Пионерская, 125",
+    "coordinates": [
+      50.284793,
+      127.53754
+    ],
+    "phones": [
+      "+7(4162) 771-772",
+      "+7(924) 141-06-40"
+    ],
+    "hours": [
+      "пн-пт 9:00-19:00",
+      "сб-вс 10:00-17:00"
+    ],
+    "emails": [
+      "mebel@arthouseamur.ru"
+    ],
+    "websites": [],
+    "source": "https://giulianovars.ru/shops/salon/blagoveshchensk/"
+  },
+  {
+    "id": "520",
+    "slug": "bryansk",
+    "city": "Брянск",
+    "cityCode": "bryansk",
+    "name": "“Giulia Novars”, Брянск",
+    "address": "Брянск, ул. Дуки, 60",
+    "coordinates": [
+      53.263904,
+      34.361736
+    ],
+    "phones": [
+      "+7(4832) 681-818",
+      "+7(910) 337-18-18"
+    ],
+    "hours": [
+      "пн-сб 10:00-19:00",
+      "вс 10:00-17:00"
+    ],
+    "emails": [
+      "stkuhni@mail.ru"
+    ],
+    "websites": [],
+    "source": "https://giulianovars.ru/shops/salon/bryansk/"
+  },
+  {
+    "id": "521",
+    "slug": "vladivostok",
+    "city": "Владивосток",
+    "cityCode": "vladivostok",
+    "name": "“Giulia Novars”, Владивосток",
+    "address": "Владивосток, Океанский просп., 133",
+    "coordinates": [
+      43.133519,
+      131.903721
+    ],
+    "phones": [
+      "+7(423) 260-8585"
+    ],
+    "hours": [
+      "пн-пт 10:00-19:00",
+      "сб.вс 11:00-18:00"
+    ],
+    "emails": [
+      "sergey@monopolyvl.ru"
+    ],
+    "websites": [],
+    "source": "https://giulianovars.ru/shops/salon/vladivostok/"
+  },
+  {
+    "id": "522",
+    "slug": "volgograd",
+    "city": "Волгоград",
+    "cityCode": "volgograd",
+    "name": "\"DEROSSI\", Волгоград",
+    "address": "Волгоград, ул. Коммунистическая, 10",
+    "coordinates": [
+      48.689287,
+      44.492094
+    ],
+    "phones": [
+      "+7(961) 697-00-44",
+      "+7(961) 697-03-03"
+    ],
+    "hours": [
+      "пн-пт 10:00-19:00",
+      "сб 11:00-18:00",
+      "вс выходной"
+    ],
+    "emails": [
+      "respektmebel34@gmail.com"
+    ],
+    "websites": [
+      "derrossi.ru"
+    ],
+    "source": "https://giulianovars.ru/shops/salon/volgograd/"
+  },
+  {
+    "id": "523",
+    "slug": "voronezh",
+    "city": "Воронеж",
+    "cityCode": "voronezh",
+    "name": "Интерьер-бутик “Эрмитаж“, Воронеж",
+    "address": "Воронеж, ул. Плехановская, 41",
+    "coordinates": [
+      51.670785,
+      39.18851
+    ],
+    "phones": [
+      "+7(473) 271-71-41",
+      "+7(951) 850-78-98"
+    ],
+    "hours": [
+      "вт-пт 10:00-19:00",
+      "сб 11:00-18:00",
+      "вс-пн выходной"
+    ],
+    "emails": [
+      "gold21@inbox.ru"
+    ],
+    "websites": [],
+    "source": "https://giulianovars.ru/shops/salon/voronezh/"
+  },
+  {
+    "id": "524",
+    "slug": "ekaterinburg",
+    "city": "Екатеринбург",
+    "cityCode": "ekaterinburg",
+    "name": "“Giulia Novars”, Екатеринбург",
+    "address": "Екатеринбург, ул. Малышева, 8, ИЦ ARCHITECTOR, 1 этаж, 109",
+    "coordinates": [
+      56.83197,
+      60.585473
+    ],
+    "phones": [
+      "+7(343) 287-59-60"
+    ],
+    "hours": [
+      "10:00-20:00"
+    ],
+    "emails": [
+      "ekb@giulianovars.ru"
+    ],
+    "websites": [],
+    "source": "https://giulianovars.ru/shops/salon/ekaterinburg/"
+  },
+  {
+    "id": "525",
+    "slug": "izhevsk",
+    "city": "Ижевск",
+    "cityCode": "izhevsk",
+    "name": "“Giulia Novars”, Ижевск",
+    "address": "Ижевск, ул. Пушкинская, 367А",
+    "coordinates": [
+      56.871975,
+      53.206981
+    ],
+    "phones": [
+      "+7(3412) 723-165",
+      "+7(3412) 725-887"
+    ],
+    "hours": [
+      "пн-пт 10:00-19:00",
+      "сб 10:00-17:00",
+      "вс выходной"
+    ],
+    "emails": [
+      "izh.office@giulianovars.ru"
+    ],
+    "websites": [],
+    "source": "https://giulianovars.ru/shops/salon/izhevsk/"
+  },
+  {
+    "id": "526",
+    "slug": "irkutsk",
+    "city": "Иркутск",
+    "cityCode": "irkutsk",
+    "name": "Салон кухни “Dolce Vita“, Иркутск",
+    "address": "Иркутск, ул. Октябрьской Революции, 1/2",
+    "coordinates": [
+      52.291107,
+      104.298046
+    ],
+    "phones": [
+      "+7(3952) 258-200"
+    ],
+    "hours": [
+      "пн-пт 10:00-19:00",
+      "сб 11:00-18:00",
+      "вс выходной"
+    ],
+    "emails": [
+      "office@sclassic.ru"
+    ],
+    "websites": [
+      "dolcevita-kuhni.ru"
+    ],
+    "source": "https://giulianovars.ru/shops/salon/irkutsk/"
+  },
+  {
+    "id": "317",
+    "slug": "kazan",
+    "city": "Казань",
+    "cityCode": "kazan",
+    "name": "“Giulia Novars”, Казань",
+    "address": "Казань, ул. Чистопольская, 22",
+    "coordinates": [
+      55.818816568936,
+      49.11338464418
+    ],
+    "phones": [
+      "+7(843) 518-22-18"
+    ],
+    "hours": [
+      "пн-сб 10:00-20:00",
+      "вс выходной"
+    ],
+    "emails": [
+      "info@gnkazan.ru"
+    ],
+    "websites": [],
+    "source": "https://giulianovars.ru/shops/salon/kazan/",
+    "link": "../shops/salon/kazan/"
+  },
+  {
+    "id": "527",
+    "slug": "kirov",
+    "city": "Киров",
+    "cityCode": "kirov",
+    "name": "“Giulia Novars”, Киров",
+    "address": "Киров, просп. Октябрьский, 80",
+    "coordinates": [
+      58.597787,
+      49.658347
+    ],
+    "phones": [
+      "+7(922) 667-27-73"
+    ],
+    "hours": [
+      "пн-пт 10:00-19:00",
+      "сб-вс 11:00-16:00"
+    ],
+    "emails": [
+      "kirov@giulianovars.ru"
+    ],
+    "websites": [
+      "kirov.giulianovars.ru"
+    ],
+    "source": "https://giulianovars.ru/shops/salon/kirov/"
+  },
+  {
+    "id": "528",
+    "slug": "kirovo-chepetsk",
+    "city": "Кирово-Чепецк",
+    "cityCode": "kirovo-chepeck",
+    "name": "“Giulia Novars”, Кирово-Чепецк",
+    "address": "Кирово-Чепецк, просп. Россия, 13",
+    "coordinates": [
+      58.550958,
+      50.045166
+    ],
+    "phones": [
+      "+7(912) 719-26-17"
+    ],
+    "hours": [
+      "САЛОН ЗАКРЫТ"
+    ],
+    "emails": [
+      "fofanov_v_a@resursm.ru"
+    ],
+    "websites": [],
+    "source": "https://giulianovars.ru/shops/salon/kirovo-chepetsk/"
+  },
+  {
+    "id": "1248",
+    "slug": "krasnodar",
+    "city": "Краснодар",
+    "cityCode": "krasnodar",
+    "name": "“Giulia Novars”, Краснодар",
+    "address": "Краснодар, ул.Аэродромная, 37",
+    "coordinates": [
+      45.048127313485,
+      38.9692855
+    ],
+    "phones": [
+      "+7(861) 204-13-00"
+    ],
+    "hours": [
+      "пн-сб: 10:00-19:00",
+      "вс: выходной"
+    ],
+    "emails": [
+      "info@giulianovars-krasnodar.ru"
+    ],
+    "websites": [
+      "krd.giulianovars.ru"
+    ],
+    "source": "https://giulianovars.ru/shops/salon/krasnodar/"
+  },
+  {
+    "id": "530",
+    "slug": "krasnoyarsk",
+    "city": "Красноярск",
+    "cityCode": "krasnoyarsk",
+    "name": "“Giulia Novars\", Красноярск",
+    "address": "Красноярск, просп. Мира, 118",
+    "coordinates": [
+      56.011092,
+      92.846598
+    ],
+    "phones": [
+      "+7(391) 205-23-25"
+    ],
+    "hours": [
+      "пн-пт 10:00-20:00",
+      "сб 11:00-19:00",
+      "вс 11:00-18:00"
+    ],
+    "emails": [
+      "krsk@giulianovars.ru"
+    ],
+    "websites": [
+      "krsk.giulianovars.ru"
+    ],
+    "source": "https://giulianovars.ru/shops/salon/krasnoyarsk/"
+  },
+  {
+    "id": "544",
+    "slug": "lipeck",
+    "city": "Липецк",
+    "cityCode": "lipetsk",
+    "name": "“Avtor“, Липецк",
+    "address": "Липецк, пл. Плеханова д.1",
+    "coordinates": [
+      52.611834,
+      39.596723
+    ],
+    "phones": [
+      "+7(920) 505-88-55"
+    ],
+    "hours": [
+      "пн-пт 10:00-19:00",
+      "сб 10:00-17:00",
+      "вс 11:00-15:00"
+    ],
+    "emails": [
+      "info@the-avtor.com"
+    ],
+    "websites": [
+      "the-avtor.com"
+    ],
+    "source": "https://giulianovars.ru/shops/salon/lipeck/"
+  },
+  {
+    "id": "531",
+    "slug": "magnitogorsk",
+    "city": "Магнитогорск",
+    "cityCode": "magnitogorsk",
+    "name": "“Giulia Novars”, Магнитогорск",
+    "address": "Магнитогорск, ул. имени Газеты Правда, 11",
+    "coordinates": [
+      53.40595,
+      58.981253
+    ],
+    "phones": [
+      "+7 (922) 731-20-99"
+    ],
+    "hours": [
+      "пн-сб 10:00-19:00",
+      "вс выходной"
+    ],
+    "emails": [
+      "mebel_home@happycentr.ru"
+    ],
+    "websites": [],
+    "source": "https://giulianovars.ru/shops/salon/magnitogorsk/"
+  },
+  {
+    "id": "1083",
+    "slug": "moskva-dom",
+    "city": "Москва",
+    "cityCode": "moskva",
+    "name": "“Giulia Novars”, Москва, ТЦ The Dom",
+    "address": "Москва, Шелепихинская наб., 34/2, ТЦ \"The Dom\", 1 этаж",
+    "coordinates": [
+      55.762789,
+      37.508984
+    ],
+    "phones": [
+      "+7(499) 290-75-17"
+    ],
+    "hours": [
+      "ежедневно: 10:00-21:00"
+    ],
+    "emails": [
+      "dom@giulianovars.ru"
+    ],
+    "websites": [
+      "giulianovars.gallery"
+    ],
+    "source": "https://giulianovars.ru/shops/salon/moskva-dom/",
+    "link": "../shops/salon/moskva-dom/"
+  },
+  {
+    "id": "560",
+    "slug": "moskva-rigamoll",
+    "city": "Москва",
+    "cityCode": "moskva",
+    "name": "“Giulia Novars”, Москва, ТРК РигаМолл",
+    "address": "Москва, Новорижское шоссе, 5-й км от МКАД, ТРК «РИГАМОЛЛ», 3 этаж, Мебель Гранд Холл.",
+    "coordinates": [
+      55.799152,
+      37.274242
+    ],
+    "phones": [
+      "+7(977) 879-08-48",
+      "+7(985) 920-50-51"
+    ],
+    "hours": [
+      "10:00-22:00"
+    ],
+    "emails": [
+      "9205051@gmail.com"
+    ],
+    "websites": [
+      "rigamoll.giulianovars.ru"
+    ],
+    "source": "https://giulianovars.ru/shops/salon/moskva-rigamoll/"
+  },
+  {
+    "id": "559",
+    "slug": "moskva-9",
+    "city": "Москва",
+    "cityCode": "moskva",
+    "name": "“Giulia Novars”, Москва, Ленинский просп.",
+    "address": "Москва, Ленинский просп., 61/1",
+    "coordinates": [
+      55.694855,
+      37.558508
+    ],
+    "phones": [
+      "+7(499) 444-55-62"
+    ],
+    "hours": [
+      "пн-пт 10:00-20:00",
+      "сб 11:00-19:00",
+      "вс 11:00-17:00"
+    ],
+    "emails": [
+      "info@logikform.ru"
+    ],
+    "websites": [
+      "giulianovars-leninsky.ru"
+    ],
+    "source": "https://giulianovars.ru/shops/salon/moskva-9/"
+  },
+  {
+    "id": "558",
+    "slug": "moskva-store",
+    "city": "Москва",
+    "cityCode": "moskva",
+    "name": "“Giulia Novars“, Мосфильмовская",
+    "address": "Москва, ул. Мосфильмовская, 53",
+    "coordinates": [
+      55.704823,
+      37.497495
+    ],
+    "phones": [
+      "+7 (499) 500-09-40"
+    ],
+    "hours": [
+      "пн–пт 10:00-20:00",
+      "сб 11:00-19:00",
+      "вс 11:00-17:00"
+    ],
+    "emails": [
+      "info@logikform.ru"
+    ],
+    "websites": [
+      "giulianovars-mosfilm.ru"
+    ],
+    "source": "https://giulianovars.ru/shops/salon/moskva-store/"
+  },
+  {
+    "id": "556",
+    "slug": "moskva-city",
+    "city": "Москва",
+    "cityCode": "moskva",
+    "name": "“Giulia Novars”, Москва, ТЦ Экспострой",
+    "address": "Москва, просп.Нахимовский, 24 стр. 5, павильон 1, линия 2а, стенд 29",
+    "coordinates": [
+      55.672849,
+      37.585224
+    ],
+    "phones": [
+      "+7(495) 980-90-21"
+    ],
+    "hours": [
+      "10:00-20:00"
+    ],
+    "emails": [
+      "giulia-n@yandex.ru"
+    ],
+    "websites": [
+      "city.giulianovars.ru"
+    ],
+    "source": "https://giulianovars.ru/shops/salon/moskva-city/"
+  },
+  {
+    "id": "555",
+    "slug": "moskva-twinstore",
+    "city": "Москва",
+    "cityCode": "moskva",
+    "name": "“Giulia Novars”, Москва, ТЦ Твинстор",
+    "address": "Москва, 1-й Щипковский переулок, 4 ТЦ «ТВИНСТОР», 2 этаж (\"м. \"Павелецкая\", \"Серпуховская\"). БЕСПЛАТНАЯ ПАРКОВКА",
+    "coordinates": [
+      55.72202,
+      37.632969
+    ],
+    "phones": [
+      "+7(925) 58-58-838",
+      "+7(495) 789-48-97"
+    ],
+    "hours": [
+      "10:00-21:00"
+    ],
+    "emails": [
+      "studio@mebelart-group.ru"
+    ],
+    "websites": [
+      "mebelart-group.ru"
+    ],
+    "source": "https://giulianovars.ru/shops/salon/moskva-twinstore/"
+  },
+  {
+    "id": "554",
+    "slug": "komsomolskiy",
+    "city": "Москва",
+    "cityCode": "moskva",
+    "name": "“Giulia Novars”, Москва, Комсомольский",
+    "address": "Москва, Комсомольский просп., 19",
+    "coordinates": [
+      55.728859,
+      37.585538
+    ],
+    "phones": [
+      "+7(903) 150-87-28",
+      "+7(499) 245-25-00"
+    ],
+    "hours": [
+      "10:00-20:00"
+    ],
+    "emails": [
+      "g-novars24@yandex.ru"
+    ],
+    "websites": [
+      "giulianovars.art"
+    ],
+    "source": "https://giulianovars.ru/shops/salon/komsomolskiy/"
+  },
+  {
+    "id": "553",
+    "slug": "moskva-smolenka",
+    "city": "Москва",
+    "cityCode": "moskva",
+    "name": "“Giulia Novars”, Москва, Смоленская",
+    "address": "Москва, ул. Смоленская, 10",
+    "coordinates": [
+      55.746015,
+      37.578064
+    ],
+    "phones": [
+      "+7(499) 290-78-08"
+    ],
+    "hours": [
+      "пн-пт 10:00-21:00",
+      "сб, вс 11:00-19:00"
+    ],
+    "emails": [
+      "smolenka@giulianovars.ru"
+    ],
+    "websites": [
+      "giulianovars.style"
+    ],
+    "source": "https://giulianovars.ru/shops/salon/moskva-smolenka/"
+  },
+  {
+    "id": "552",
+    "slug": "moskva-mira71",
+    "city": "Москва",
+    "cityCode": "moskva",
+    "name": "“Giulia Novars”, Москва, Мира, 71",
+    "address": "Москва, пр.Мира, 71, стр. 1 БЕСПЛАТНАЯ ПАРКОВКА",
+    "coordinates": [
+      55.78809,
+      37.634317
+    ],
+    "phones": [
+      "+7(926) 626-82-22",
+      "+7(916) 626-26-25",
+      "+7(495) 688-91-46"
+    ],
+    "hours": [
+      "пн-пт 10:00-20:00",
+      "сб 11:00-19:00",
+      "вс выходной"
+    ],
+    "emails": [
+      "giulianovars@mail.ru"
+    ],
+    "websites": [
+      "mira.giulianovars.ru"
+    ],
+    "source": "https://giulianovars.ru/shops/salon/moskva-mira71/"
+  },
+  {
+    "id": "551",
+    "slug": "moskva-grand",
+    "city": "Москва",
+    "cityCode": "moskva",
+    "name": "“Giulia Novars“, Москва, ТК Гранд",
+    "address": "Москва, Ленинградское шоссе, ТК «Гранд», 2 этаж (павильон у перехода из Гранд-1 в Гранд-2)",
+    "coordinates": [
+      55.885222002902,
+      37.437892231491
+    ],
+    "phones": [
+      "+7(495) 777-48-94"
+    ],
+    "hours": [
+      "10:00-21:00"
+    ],
+    "emails": [
+      "giulia_novars07@mail.ru"
+    ],
+    "websites": [],
+    "source": "https://giulianovars.ru/shops/salon/moskva-grand/"
+  },
+  {
+    "id": "550",
+    "slug": "moskva-taganka",
+    "city": "Москва",
+    "cityCode": "moskva",
+    "name": "“Giulia Novars”, Москва, Марксистская",
+    "address": "Москва, ул. Марксистская, 5, стр.1 (м. «Марксистская», «Таганская»)",
+    "coordinates": [
+      55.73737,
+      37.663611
+    ],
+    "phones": [
+      "+7(499) 290-77-47"
+    ],
+    "hours": [
+      "пн-пт 10:00-20:00",
+      "сб 11:00-19:00",
+      "вс 11:00-18:00"
+    ],
+    "emails": [
+      "taganka@giulianovars.ru"
+    ],
+    "websites": [
+      "giulianovars.center"
+    ],
+    "source": "https://giulianovars.ru/shops/salon/moskva-taganka/"
+  },
+  {
+    "id": "536",
+    "slug": "moskva-hodynka",
+    "city": "Москва",
+    "cityCode": "moskva",
+    "name": "“Giulia Novars”, Москва, Ходынка",
+    "address": "Москва, ул. Авиаконструктора Микояна, 12 БЕСПЛАТНАЯ ПАРКОВКА",
+    "coordinates": [
+      55.792413,
+      37.526574
+    ],
+    "phones": [
+      "+7(495) 789-49-77",
+      "+7(925) 194-53-77"
+    ],
+    "hours": [
+      "10:00-21:00"
+    ],
+    "emails": [
+      "gn@giulianovars-msk.ru"
+    ],
+    "websites": [
+      "giulianovars-projects.ru"
+    ],
+    "source": "https://giulianovars.ru/shops/salon/moskva-hodynka/"
+  },
+  {
+    "id": "533",
+    "slug": "nizhniy-novgorod",
+    "city": "Нижний Новгород",
+    "cityCode": "nizhnij-novgorod",
+    "name": "“Giulia Novars”, Нижний Новгород",
+    "address": "Нижний Новгород, ул. Горького, 260",
+    "coordinates": [
+      56.322005,
+      44.03255
+    ],
+    "phones": [
+      "+7(831) 435-11-77"
+    ],
+    "hours": [
+      "пн-пт 10:00-20:00",
+      "сб.вс 10:00-18:00"
+    ],
+    "emails": [
+      "giulianovars-nn@mail.ru"
+    ],
+    "websites": [],
+    "source": "https://giulianovars.ru/shops/salon/nizhniy-novgorod/"
+  },
+  {
+    "id": "534",
+    "slug": "novosibirsk",
+    "city": "Новосибирск",
+    "cityCode": "novosibirsk",
+    "name": "“Giulia Novars”, Новосибирск",
+    "address": "Новосибирск, ул.Орджоникидзе, 23 (м.«Площадь Ленина»)",
+    "coordinates": [
+      55.031376,
+      82.917726
+    ],
+    "phones": [
+      "+7(383) 305-13-83"
+    ],
+    "hours": [
+      "пн-пт 10:00-20:00",
+      "сб 11:00-19:00",
+      "вс 11:00-18:00"
+    ],
+    "emails": [
+      "nsk@giulianovars.ru"
+    ],
+    "websites": [
+      "nsk.giulianovars.ru"
+    ],
+    "source": "https://giulianovars.ru/shops/salon/novosibirsk/"
+  },
+  {
+    "id": "535",
+    "slug": "omsk",
+    "city": "Омск",
+    "cityCode": "omsk",
+    "name": "Дом интерьера “Status“, Омск",
+    "address": "Омск, просп. Карла Маркса, 41/56",
+    "coordinates": [
+      54.962349,
+      73.388334
+    ],
+    "phones": [
+      "+7(3812) 35-25-50",
+      "+7(923) 773-72-24"
+    ],
+    "hours": [
+      "пн-сб 10:00-19:00",
+      "вс выходной"
+    ],
+    "emails": [
+      "gnkulikaeva@status55.ru"
+    ],
+    "websites": [],
+    "source": "https://giulianovars.ru/shops/salon/omsk/"
+  },
+  {
+    "id": "537",
+    "slug": "penza",
+    "city": "Пенза",
+    "cityCode": "penza",
+    "name": "Дизайн-Центр \"Галерея интерьера\", Пенза",
+    "address": "Пенза, ул. Бекешская, 10",
+    "coordinates": [
+      53.201197,
+      44.976167
+    ],
+    "phones": [
+      "+7(8412) 329-629"
+    ],
+    "hours": [
+      "пн-сб 10:00-19:00",
+      "вс выходной"
+    ],
+    "emails": [
+      "Gallereya@design-penza.ru"
+    ],
+    "websites": [],
+    "source": "https://giulianovars.ru/shops/salon/penza/"
+  },
+  {
+    "id": "538",
+    "slug": "perm",
+    "city": "Пермь",
+    "cityCode": "perm",
+    "name": "“Giulia Novars”, Пермь",
+    "address": "Пермь, ул. Газеты Звезда, 13, ТЦ «Звезда», 2 этаж",
+    "coordinates": [
+      58.013573,
+      56.241077
+    ],
+    "phones": [
+      "+7(342) 214-73-33"
+    ],
+    "hours": [
+      "пн-пт 10:00-20:00",
+      "сб 10:00-19:00",
+      "вс 11:00-18:00"
+    ],
+    "emails": [
+      "permgn@yandex.ru"
+    ],
+    "websites": [],
+    "source": "https://giulianovars.ru/shops/salon/perm/"
+  },
+  {
+    "id": "539",
+    "slug": "rostov-na-donu",
+    "city": "Ростов-на-Дону",
+    "cityCode": "rostov-na-donu",
+    "name": "“Giulia Novars”, Ростов-на-Дону",
+    "address": "Ростов-на-Дону, ул. Красноармейская, 94/92",
+    "coordinates": [
+      47.22564,
+      39.703191
+    ],
+    "phones": [
+      "+7(960) 444-94-92"
+    ],
+    "hours": [
+      "пн-пт 10:00-20:00",
+      "сб 10:00-19:00",
+      "вс 10:00-18:00"
+    ],
+    "emails": [
+      "rostov@giulianovars.ru"
+    ],
+    "websites": [],
+    "source": "https://giulianovars.ru/shops/salon/rostov-na-donu/"
+  },
+  {
+    "id": "540",
+    "slug": "samara",
+    "city": "Самара",
+    "cityCode": "samara",
+    "name": "“Giulia Novars”, Самара",
+    "address": "Самара, ул. Ново-Cадовая, 6",
+    "coordinates": [
+      53.206558,
+      50.125849
+    ],
+    "phones": [
+      "+7(846) 205-11-08"
+    ],
+    "hours": [
+      "пн-пт 10:00-19:00",
+      "сб 10:00-18:00"
+    ],
+    "emails": [
+      "Giulia.Novars.Samara@yandex.ru"
+    ],
+    "websites": [],
+    "source": "https://giulianovars.ru/shops/salon/samara/"
+  },
+  {
+    "id": "1527",
+    "slug": "sankt-peterburg-moskovskij",
+    "city": "Санкт-Петербург",
+    "cityCode": "sankt-peterburg",
+    "name": "“Giulia Novars”, Санкт-Петербург, Московский просп.",
+    "address": "Санкт-Петербург, Московский просп., 136",
+    "coordinates": [
+      59.887304,
+      30.320405
+    ],
+    "phones": [
+      "+7(812) 679-90-93"
+    ],
+    "hours": [
+      "11:00-20:00"
+    ],
+    "emails": [
+      "spb@giulianovars.ru"
+    ],
+    "websites": [
+      "spb.giulianovars.ru"
+    ],
+    "source": "https://giulianovars.ru/shops/salon/sankt-peterburg-moskovskij/",
+    "link": "../shops/salon/sankt-peterburg-moskovskij/"
+  },
+  {
+    "id": "1203",
+    "slug": "sankt-peterburg-kronverkskij",
+    "city": "Санкт-Петербург",
+    "cityCode": "sankt-peterburg",
+    "name": "“Giulia Novars”, Санкт-Петербург, просп. Кронверкский",
+    "address": "Санкт-Петербург, просп. Кронверкский, 51 (ст.м. Горьковская)",
+    "coordinates": [
+      59.955674,
+      30.308475
+    ],
+    "phones": [
+      "+7(812) 405-90-45"
+    ],
+    "hours": [
+      "11:00-20:00"
+    ],
+    "emails": [
+      "spb14@giulianovars.ru"
+    ],
+    "websites": [
+      "spb.giulianovars.ru"
+    ],
+    "source": "https://giulianovars.ru/shops/salon/sankt-peterburg-kronverkskij/"
+  },
+  {
+    "id": "1088",
+    "slug": "sankt-peterburg-gagarinskaya",
+    "city": "Санкт-Петербург",
+    "cityCode": "sankt-peterburg",
+    "name": "“Giulia Novars”, Санкт-Петербург, ул. Гагаринская",
+    "address": "Санкт-Петербург, ул. Гагаринская, 5",
+    "coordinates": [
+      59.947559,
+      30.341731
+    ],
+    "phones": [
+      "+7(958) 588-07-88"
+    ],
+    "hours": [
+      "11:00-20:00"
+    ],
+    "emails": [
+      "gn.vosstspb@gmail.com"
+    ],
+    "websites": [
+      "spb.giulianovars.ru"
+    ],
+    "source": "https://giulianovars.ru/shops/salon/sankt-peterburg-gagarinskaya/"
+  },
+  {
+    "id": "541",
+    "slug": "sankt-peterburg-medikov",
+    "city": "Санкт-Петербург",
+    "cityCode": "sankt-peterburg",
+    "name": "“Giulia Novars”, Санкт-Петербург, просп. Медиков",
+    "address": "Санкт-Петербург, просп. Медиков, 10/1",
+    "coordinates": [
+      59.974707,
+      30.316335
+    ],
+    "phones": [
+      "+7(921) 405-12-16",
+      "+7(812) 616-20-69",
+      "+7(812) 616-28-94"
+    ],
+    "hours": [
+      "11:00-20:00"
+    ],
+    "emails": [
+      "spb48@giulianovars.ru"
+    ],
+    "websites": [
+      "spb.giulianovars.ru"
+    ],
+    "source": "https://giulianovars.ru/shops/salon/sankt-peterburg-medikov/"
+  },
+  {
+    "id": "542",
+    "slug": "sevastopol",
+    "city": "Севастополь",
+    "cityCode": "sevastopol",
+    "name": "“Giulia Novars”, Севастополь",
+    "address": "Севастополь, ул. Л.Толстого, 64, 1 этаж",
+    "coordinates": [
+      44.584912,
+      33.508067
+    ],
+    "phones": [
+      "+7(978) 112-57-54",
+      "+7(978) 177-65-48"
+    ],
+    "hours": [
+      "пн-сб 10:00-18:00",
+      "вс выходной"
+    ],
+    "emails": [
+      "homeland.krym@gmail.com"
+    ],
+    "websites": [
+      "crimea.giulianovars.ru"
+    ],
+    "source": "https://giulianovars.ru/shops/salon/sevastopol/"
+  },
+  {
+    "id": "543",
+    "slug": "simferopol",
+    "city": "Симферополь",
+    "cityCode": "simferopolis",
+    "name": "“Giulia Novars”, Симферополь",
+    "address": "Симферополь, ул. Горького, 20",
+    "coordinates": [
+      44.951739,
+      34.094218
+    ],
+    "phones": [
+      "+7(918) 675-83-00"
+    ],
+    "hours": [
+      "пн-сб 10:00-19:00",
+      "вс выходной"
+    ],
+    "emails": [
+      "gn.crimea@gmail.com"
+    ],
+    "websites": [
+      "crimea.giulianovars.ru"
+    ],
+    "source": "https://giulianovars.ru/shops/salon/simferopol/"
+  },
+  {
+    "id": "1583",
+    "slug": "sochi",
+    "city": "Сочи",
+    "cityCode": "sochi",
+    "name": "“Giulia Novars”, Сочи",
+    "address": "Сочи, ул. Голенева, 26/5",
+    "coordinates": [
+      43.607128,
+      39.742843
+    ],
+    "phones": [
+      "+7(938) 426-50-00"
+    ],
+    "hours": [
+      "10:00-19:00"
+    ],
+    "emails": [
+      "info@giulianovars-sochi.ru"
+    ],
+    "websites": [],
+    "source": "https://giulianovars.ru/shops/salon/sochi/"
+  },
+  {
+    "id": "545",
+    "slug": "tyumen",
+    "city": "Тюмень",
+    "cityCode": "tyumen",
+    "name": "“Giulia Novars”, Тюмень",
+    "address": "Тюмень, ул. 50 лет Октября, 57Б",
+    "coordinates": [
+      57.140494,
+      65.592197
+    ],
+    "phones": [
+      "+7(3452) 57-91-50"
+    ],
+    "hours": [
+      "пн-сб 10:00-20:00",
+      "вс 11:00-19:00"
+    ],
+    "emails": [
+      "miele.premium72@mail.ru"
+    ],
+    "websites": [],
+    "source": "https://giulianovars.ru/shops/salon/tyumen/"
+  },
+  {
+    "id": "546",
+    "slug": "ufa",
+    "city": "Уфа",
+    "cityCode": "ufa",
+    "name": "“Giulia Novars”, Уфа",
+    "address": "Уфа, ул. Карла Маркса д. 40",
+    "coordinates": [
+      54.735517316286,
+      55.945908
+    ],
+    "phones": [
+      "+7(347) 291-21-16"
+    ],
+    "hours": [
+      "пн-сб 10:00-20:00",
+      "вс 10:00-18:00"
+    ],
+    "emails": [
+      "nazarov.67@mail.ru"
+    ],
+    "websites": [],
+    "source": "https://giulianovars.ru/shops/salon/ufa/"
+  },
+  {
+    "id": "547",
+    "slug": "cheboksary",
+    "city": "Чебоксары",
+    "cityCode": "cheboksari",
+    "name": "“Giulia Novars”, Чебоксары",
+    "address": "Чебоксары, просп. Ленина, 14",
+    "coordinates": [
+      56.128079,
+      47.248671
+    ],
+    "phones": [
+      "+7(8352) 627-330",
+      "+7(8352) 627-332"
+    ],
+    "hours": [
+      "пн-пт 10:00-19:00",
+      "сб 10:00-18:00",
+      "вс выходной"
+    ],
+    "emails": [
+      "aplot@aplot.ru"
+    ],
+    "websites": [],
+    "source": "https://giulianovars.ru/shops/salon/cheboksary/"
+  },
+  {
+    "id": "548",
+    "slug": "chelyabinsk",
+    "city": "Челябинск",
+    "cityCode": "cheliabinsk",
+    "name": "Центр дизайна и интерьера “Park Avenue“, Челябинск",
+    "address": "Челябинск, ул. Лесопарковая, 7",
+    "coordinates": [
+      55.155612,
+      61.365417
+    ],
+    "phones": [
+      "+7(351) 200-56-09"
+    ],
+    "hours": [
+      "пн-пт 10:00-19:00",
+      "сб.вс 10:00-18:00"
+    ],
+    "emails": [
+      "gn@parkav.ru"
+    ],
+    "websites": [],
+    "source": "https://giulianovars.ru/shops/salon/chelyabinsk/"
+  },
+  {
+    "id": "549",
+    "slug": "yaroslavl",
+    "city": "Ярославль",
+    "cityCode": "yaroslavl",
+    "name": "“Студия немецкой мебели“, Ярославль",
+    "address": "Ярославль, Которосльная наб., 57",
+    "coordinates": [
+      57.61783,
+      39.863747
+    ],
+    "phones": [
+      "+7(4852) 28-70-08"
+    ],
+    "hours": [
+      "пн-пт 10:00-19:00",
+      "сб 11:00-19:00",
+      "вс 11:00-17:00"
+    ],
+    "emails": [
+      "info@rinali.ru"
+    ],
+    "websites": [
+      "rinali.ru"
+    ],
+    "source": "https://giulianovars.ru/shops/salon/yaroslavl/"
+  }
+]

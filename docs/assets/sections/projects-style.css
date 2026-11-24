@@ -1,0 +1,6 @@
+/* «СМОТРИТЕ ТАКЖЕ» на странице проекта: без растягивания на 70vh, как на странице списка проектов */
+.projects-also #shops_vue,
+.projects-also .list-projects-container
+{
+    min-height: 0;
+}

@@ -1,0 +1,29 @@
+.shop-one img
+{
+    max-width: 150px;
+}
+.loader
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list-item {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  .list-enter-active, .list-leave-active {
+    transition: all 1s;
+  }
+  .list-enter, .list-leave-to /* .list-leave-active до версии 2.1.8 */ {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+ .list-shpon
+ {
+  max-width: 100vw;
+ }
+ .link--facade .block-texture, .fancybox-content
+ {
+  border: 1px solid #E1E1E1;
+ }

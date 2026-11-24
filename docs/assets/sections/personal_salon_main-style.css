@@ -1,0 +1,4 @@
+.news-list .col-lg-4:nth-child(5n), .news-list .col-lg-4:nth-child(5n+4)
+{
+    width: 50%;
+}
