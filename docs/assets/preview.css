@@ -96,18 +96,30 @@ main .intro-video img[src$="/play.svg"] { display: none; }
 }
 
 .preview-landing .landing-hero {
+  display: grid;
+  grid-template-rows: 1fr auto 1fr;
+  row-gap: 24px;
   height: auto;
   min-height: clamp(510px, 82svh, 860px);
+  padding-block: 36px;
+}
+
+.preview-landing .landing-hero > .intro-content {
+  grid-row: 2;
+}
+
+.preview-landing .landing-hero > .landing-hero-actions {
+  grid-row: 3;
+  align-self: end;
 }
 
 .preview-landing .landing-hero-copy {
   max-width: 1080px;
-  padding-block: 80px;
 }
 
 .preview-landing .landing-lead {
   max-width: 700px;
-  margin-block: 15px 26px;
+  margin-block: 15px 0;
 }
 
 .preview-landing .landing-actions {
@@ -230,18 +242,10 @@ main .intro-video img[src$="/play.svg"] { display: none; }
   padding: 0 22px 18px 0;
 }
 
-.preview-landing .landing-contact-copy {
-  max-width: 800px;
-  margin-block: 15px 25px;
-}
-
 @media (max-width: 1023px) {
   .preview-landing .landing-hero {
     min-height: clamp(480px, 77svh, 690px);
-  }
-
-  .preview-landing .landing-hero-copy {
-    padding-block: 55px;
+    padding-block: 24px;
   }
 }
 

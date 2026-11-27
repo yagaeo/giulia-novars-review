@@ -17,6 +17,8 @@ from urllib.parse import urljoin, urlsplit, urlunsplit
 
 ORIGIN = 'https://giulianovars.ru'
 FRAGMENT = '<!-- preview-content -->'
+HOME_CONTACT = '<!-- preview-home-contact -->'
+CONTACT_PART = re.compile(r'<!-- preview-contact-part -->\s*(.*?)\s*<!-- /preview-contact-part -->', re.DOTALL)
 MAIN = re.compile(r'<main\b.*?</main>', re.DOTALL)
 LINK = re.compile(r'(\b(?:href|src|poster|data-project-link)=)(["\'])(.*?)\2', re.DOTALL)
 TITLE = re.compile(r'<title>.*?</title>', re.DOTALL)
@@ -69,10 +71,18 @@ def render_pages(root):
     routes = set(pages)
     shell_path = pages.get('/about/')
     shell = shell_path.read_text(encoding='utf-8') if shell_path else ''
+    home_path = pages.get('/')
+    home = home_path.read_text(encoding='utf-8') if home_path else ''
     breadcrumb_file = Path(__file__).with_name('section-breadcrumbs.json')
     breadcrumbs = json.loads(breadcrumb_file.read_text(encoding='utf-8'))
     for route, path in pages.items():
         content = path.read_text(encoding='utf-8')
+        if HOME_CONTACT in content:
+            parts = CONTACT_PART.findall(home)
+            if len(parts) != 2:
+                raise SystemExit('The homepage contact block and its form must both be marked.')
+            contact = rewrite_links('\n'.join(parts), '/', route, routes)
+            content = content.replace(HOME_CONTACT, contact)
         if content.startswith(FRAGMENT):
             main = MAIN.search(content)
             title = TITLE.search(content)
